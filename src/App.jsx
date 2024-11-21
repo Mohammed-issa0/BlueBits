@@ -1,4 +1,5 @@
 import { useState } from "react";
+import main from "../public/main.png";
 import {
   GraduationCap,
   Users,
@@ -59,7 +60,7 @@ function App() {
                 whileHover={{ scale: 1.1 }}
                 className="text-3xl font-bold text-blue-600"
               >
-                <img src="../main.png" className="w-48" />
+                <img src={main} className="w-48" />
               </motion.div>
             </div>
           </div>
